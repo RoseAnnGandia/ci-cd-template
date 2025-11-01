@@ -5,7 +5,7 @@
         "S3Bucket": {
             "Type": "AWS::S3::Bucket",
             "Properties": {
-                "BucketName": "simple-app"
+                "BucketName": "simple-app-1"
             }
         }
     },
