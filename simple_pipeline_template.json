@@ -3,7 +3,10 @@
     "Description": "CloudFormation Sample Template S3_Bucket: Sample template showing how to create a privately accessible S3 bucket.",
     "Resources": {
         "S3Bucket": {
-            "Type": "AWS::S3::Bucket"
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": "cicd-simple-s3-bucket"
+            }
         }
     },
     "Outputs": {
